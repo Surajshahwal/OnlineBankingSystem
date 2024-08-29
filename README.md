@@ -60,7 +60,7 @@ CREATE TABLE transactions (
 1. Run the Main.java file.
 2. Select option 2 to register a new customer.
 3. Enter the required details:
- Username
+ Username,
  Password
 Name
 4. After registration, the customer details will be saved in the customers table.
@@ -72,8 +72,8 @@ Name
 1. Run the AccountantApp.java file.
 2. Select the option to create a new account for the customer.
 3. Enter the following details:
- Account number
- Customer ID
+ Account number,
+ Customer ID,
  Initial balance
 4. Repeat the process to create additional accounts if needed.
 # Step 4: Transfer Money
@@ -87,9 +87,9 @@ Name
 # Step 6: Manage Accounts (Accountant)
 1. Log in to the AccountantApp.java and use the available options to:
    
- Update accounts
-  Delete accounts
- View specific or all accounts
+ Update accounts,
+  Delete accounts,
+ View specific or all accounts,
  Perform deposits and withdrawals
 
 
