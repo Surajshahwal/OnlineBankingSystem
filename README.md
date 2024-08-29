@@ -24,12 +24,12 @@ MySQL Workbench or MySQL Command Line
 An IDE such as IntelliJ IDEA, Eclipse, or NetBeans
 
 # Database Setup
-1. Create database :
+# 1. Create database :
 CREATE DATABASE bank_db;
 
 USE bank_db;
 
-2.  Create Tables : 
+# 2.  Create Tables : 
 CREATE TABLE customers (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
@@ -56,36 +56,36 @@ CREATE TABLE transactions (
 );
 
 # Running the Application
-Step 1: Register a New Customer
-Run the Main.java file.
-Select option 2 to register a new customer.
-Enter the required details:
+# Step 1: Register a New Customer
+1. Run the Main.java file.
+2. Select option 2 to register a new customer.
+3. Enter the required details:
 Username
 Password
 Name
-After registration, the customer details will be saved in the customers table.
-Step 2: Log in as Customer
-Run the Main.java file again.
-Select option 1 to log in as the newly registered customer.
-If successful, you will be redirected to the CustomerApp.java interface.
-Step 3: Create Accounts (Accountant)
-Run the AccountantApp.java file.
-Select the option to create a new account for the customer.
-Enter the following details:
+4. After registration, the customer details will be saved in the customers table.
+# Step 2: Log in as Customer
+1. Run the Main.java file again.
+2. Select option 1 to log in as the newly registered customer.
+3. If successful, you will be redirected to the CustomerApp.java interface. 
+# Step 3: Create Accounts (Accountant)
+1. Run the AccountantApp.java file.
+2. Select the option to create a new account for the customer.
+3. Enter the following details:
 Account number
 Customer ID
 Initial balance
-Repeat the process to create additional accounts if needed.
-Step 4: Transfer Money
-Log in as a customer through CustomerApp.java.
-Select the "Transfer Money" option.
-Enter the source and destination account numbers and the amount to transfer.
-The system will process the transfer and update the balances.
-Step 5: View Transaction History
-Select the option to view transaction history in CustomerApp.java.
-Enter the account number to view all related transactions.
-Step 6: Manage Accounts (Accountant)
-Log in to the AccountantApp.java and use the available options to:
+4. Repeat the process to create additional accounts if needed.
+# Step 4: Transfer Money
+1. Log in as a customer through CustomerApp.java.
+2. Select the "Transfer Money" option.
+3. Enter the source and destination account numbers and the amount to transfer.
+4. The system will process the transfer and update the balances.
+# Step 5: View Transaction History
+1. Select the option to view transaction history in CustomerApp.java.
+2. Enter the account number to view all related transactions.
+# Step 6: Manage Accounts (Accountant)
+1. Log in to the AccountantApp.java and use the available options to:
 Update accounts
 Delete accounts
 View specific or all accounts
