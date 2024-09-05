@@ -3,13 +3,14 @@ package model;
 import java.sql.Timestamp;
 
 public class Transaction {
+ // creating the private variables
     private int id;
     private String accountNumber;
     private double amount;
     private String transactionType;
     private Timestamp date;
-
-    public Transaction(int id, String accountNumber, double amount, String transactionType, Timestamp date) {
+//   creating constructor
+        public Transaction(int id, String accountNumber, double amount, String transactionType, Timestamp date) {
         this.id = id;
         this.accountNumber = accountNumber;
         this.amount = amount;

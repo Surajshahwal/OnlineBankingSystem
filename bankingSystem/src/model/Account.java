@@ -1,11 +1,13 @@
 package model;
 
-public class Account {
+public class    Account {
+//creating the private variables
     private String accountNumber;
     private int customerId;
     private double balance;
     private String username;
 
+    //creating constructor
     public Account(String accountNumber, int customerId, double balance, String username) {
         this.accountNumber = accountNumber;
         this.customerId = customerId;
@@ -14,7 +16,8 @@ public class Account {
     }
 
     public Account(String accountNumber, int customerId, double balance) {
-        this(accountNumber, customerId, balance, ""); // Provide default or empty username
+        // Provide default or empty username
+        this(accountNumber, customerId, balance, "");
     }
 
     // Getters and Setters
